@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone</title>
+
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div id="navleft-container">
+            <div id="logo-container">
+                <img src="/images/Myntra-icon-logo.png" alt="myntra logo">
+            </div>
+            <ul id="navlinks">
+                <li><a href="#" id="mens-list">MEN</a></li>
+                <li><a href="#" id="womens-list">WOMEN</a></li>
+                <li><a href="#" id="kids-list">KIDS</a></li>
+                <li><a href="#" id="homeliving-list">HOME & LIVING</a></li>
+                <li><a href="#" id="beauty-list">BEAUTY</a></li>
+                <li><a href="#" id="studio-li">STUDIO <span>NEW</span></a></li>
+            </ul>
+        </div>
+        <div id="navright-container">
+            <div id="searchbar-container">
+                <input type="text" placeholder="Search for products, brands and more">
+                <i class="fas fa-search"></i>
+            </div>
+            <div id="options-container">
+                <div id="profile">
+                    <i class="fa-regular fa-user"></i>
+                    <a href="#">Profile</a>
+                </div>
+                <div id="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    <a href="#">Wishlist</a>
+                </div>
+                <div id="bag">
+                    <i class="fas fa-shopping-bag"></i>
+                    <a href="#">Bag</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---hero section-->
+    <section id="hero-section">
+        <figure>
+            <img src="/images/heroimage.PNG" alt="home image">
+            <img src="/images/crazy deals.PNG" alt="">
+        </figure>
+        <!---offer box container-->
+        <main>
+            <!---offer card container-->
+            <div id="card-container">
+                <div id="bell-container">
+                    <i class="fas fa-bell" id="bell-icon"></i>
+                </div>
+                <h1>FLAT ₹200 OFF </h1>
+                <i class="fas fa-chevron-left"></i>
+
+            </div>
+
+            <div id="offercontents-container">
+                <!---content 1-->
+                <div id="content1-container">
+                    <!---text content-->
+                    <div id="textcontent">
+                        <p>Avail Flat</p>
+                        <h1>200 OFF</h1>
+                    </div>
+                    <!---content1 image-->
+                    <img src="/images/singh.PNG" alt="">
+                </div>
+
+                <!---content 1 completed-->
+                <!---content 2- coupon code and btn-->
+                <div id="content2-container">
+                    <!--coupon code text container-->
+                    <div id="couponcodetext-container">
+                        <p>Coupon Code: <strong>MYNTRA200</strong></p>
+                        <p href="#">Applicable on your first order</p>
+                    </div>
+                    <!--content2-->
+                    <button>SIGN UP NOW</button>
+                </div>
+
+                <!--third contents container-->
+                <div id="content3-container">
+                    <!--products-->
+                    <div id="products">
+                        <i class="fas fa-check"></i>
+                        <p>Genuine Products</p>
+                    </div>
+                    <!---try and buy-->
+                    <div id="try-buy">
+                        <i class="fas fa-shirt"></i>
+                        <p>Try & Buy</p>
+                    </div>
+                    <!----Easy andd Exhanges-->
+                    <div id="easy-exchanges">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>Easy Exchanges & Returns</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!---combo card-->
+        <div id="combo-card">
+            <!--combo content-->
+            <div id="combo-heading">
+                <h1>LATEST OFFERS</h1>
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <!--articles container-->
+            <div class="articles-container">
+                <!---articles-->
+                <article>
+                    <img src="/images/pic3.PNG" alt="">
+                    <!---para content-->
+                    <div class="para-content">
+                        <p>2 HRS Super Steals</p>
+                        <a href="#">1 hr ago</a>
+                    </div>
+                </article>
+                <!--article 2-->
+                <article>
+                    <img src="/images/pic4.PNG" alt="">
+                    <div class="para-content">
+                        <p>2 HRS Super Steals</p>
+                        <a href="#">2 hrs ago</a>
+                    </div>
+                </article>
+                <!--article 3-->
+                <article>
+                    <img src="/images/pic5.PNG" alt="">
+                    <div class="para-content">
+                        <p>2 HRS Super Steals</p>
+                        <a href="#">3 hrs ago</a>
+                    </div>
+                </article>
+                <!---article 5-->
+                <article>
+                    <img src="/images/pic6.PNG" alt="">
+                    <div class="para-content">
+                        <p>2 HRS Super Steals</p>
+                        <a href="#">4 hrs ago</a>
+                    </div>
+                </article>
+                <!--article 5-->
+                <article>
+                    <img src="/images/pic7.PNG" alt="">
+                    <div class="para-content">
+                        <p>2 HRS Super Steals</p>
+                        <a href="#">5 hr ago</a>
+                    </div>
+                </article>
+            </div>
+            <button>SUBSCRIBE TO NOTIFICATIONS</button>
+        </div>
+        <!----profile container start-->
+
+        <div id="profile-container">
+            <!--profile contents-->
+            <div id="profile-contents">
+                <a href="#">Welcome</a>
+                <p>To access account and manage orders</p>
+                <!--profile content btn-->
+                <button>LOGIN / SIGNUP</button>
+            </div>
+            <!--firsst menus-->
+            <ul id="first-menus">
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Gift cards</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Myntra Inside <span>New</span></a></li>
+            </ul>
+            <!--second menus-->
+            <ul id="second-menus">
+                <li><a href="#">Myntra Credit</a></li>
+                <li><a href="#">Coupons</a></li>
+                <li><a href="#">Saved Cards</a></li>
+                <li><a href="#">Saved VPA</a></li>
+                <li><a href="#">Saved Addresses</a></li>
+            </ul>
+        </div>
+        </div>
+
+        <!--studio container-->
+        <div id="studio-container">
+            <!--studio contents-->
+            <div id="studio-contents">
+                <img src="/images/myntra-studio-seeklogo.png" alt="studio png">
+                <a href="#">Your daily inspiration for everything fashion</a>
+            </div>
+            <!---articles container model container-->
+            <div id="articles-container">
+                <!--article 1-->
+                <article>
+                    <img src="/images/virat.webp" alt="">
+                </article>
+                <!--article 2-->
+                <article>
+                    <img src="/images/pexels-aryane-vilarim-79780-2869076.jpg" alt="">
+                </article>
+                <!--article 3-->
+                <article>
+                    <img src="/images/pexels-aliakbar-nosrati-453685724-15654407.jpg" alt="">
+                </article>
+                <!--article 4-->
+                <article>
+                    <img src="/images/gir.jpg" alt="">
+                </article>
+            </div>
+            <!---btn--->
+            <button>EXPLORE STUDIO <span class="fas fa-chevron-right"></span></button>
+        </div>
+        <!---products  dropdiiown menus-->
+        <!---men -container  have 2 container topwear and festiv weara-->
+
+        <div id="menswear-container">
+            <!--article 1-->
+            <article class="topwear">
+                <p>Topwear</p>
+                <ul id="topwear-items">
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Casual Shirts</a></li>
+                    <li><a href="#">Formal Shirts</a></li>
+                    <li><a href="#">Sweat Shirts</a></li>
+                    <li><a href="#">Sweaters</a></li>
+                    <li><a href="#">Jackets</a></li>
+                    <li><a href="#">Blazers & Coats</a></li>
+                    <li><a href="#">Suits</a></li>
+                    <li><a href="#">Rain Jackets</a></li>
+                </ul>
+                <article class="bottomwear">
+                    <p>Bottomwear</p>
+                    <ul id="bottomwear-items">
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Casual Trousers</a></li>
+                        <li><a href="#">Formal Trousers</a></li>
+                        <li><a href="#">Shorts</a></li>
+                        <li><a href="#">Track Pants & Joggers</a></li>
+                    </ul>
+                </article>
+            </article>
+            <!---article 2 -->
+            <article>
+                <p>Innerwear & Sleepwear</p>
+                <ul id="innerwear">
+                    <li><a href="#">Briefs & Trunks</a></li>
+                    <li><a href="#">Boxers</a></li>
+                    <li><a href="#">Vests</a></li>
+                    <li><a href="#">Sleepwear & Loungewear</a></li>
+                    <li><a href="#">Thermals</a></li>
+                </ul>
+                <article>
+                    <p>Footwear</p>
+                    <ul id="footwear">
+                        <li><a href="#">Casual Shoes</a></li>
+                        <li><a href="#">Sports Shoes</a></li>
+                        <li><a href="#">Formal Shoes</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Sandals & Floaters</a></li>
+                        <li><a href="#">Flip Flops</a></li>
+                        <li><a href="#">Socks</a></li>
+                    </ul>
+                </article>
+            </article>
+            <!-- article 3-->
+            <article>
+                <p>Fashion Accesorries</p>
+                <ul id="fashion">
+                    <li><a href="#">Wallets</a></li>
+                    <li><a href="#">Belts</a></li>
+                    <li><a href="#">Perfumes & Bodymist</a></li>
+                    <li><a href="#">Trimmers</a></li>
+                    <li><a href="#">Caps & Hats</a></li>
+                    <li><a href="#">Muffler,Scrafs and Glowes</a></li>
+                    <li><a href="#">Helmets</a></li>
+                    <li><a href="#">Rings Wristwear</a></li>
+                    <li><a href="#">Phone Cases</a></li>
+                    <li><a href="#">Perfumes</a></li>
+                </ul>
+                <article>
+                    <p>Sports & Activewear</p>
+                    <ul id="sports">
+                        <li><a href="#">Sports Shoe</a></li>
+                        <li><a href="#">Sports Sandals</a></li>
+                        <li><a href="#">Active T-Shirt</a></li>
+                        <li><a href="#">Track Pants &</a></li>
+                        <li><a href="#">Tracksuits</a></li>
+                        <li><a href="#">Sports & Accesorries</a></li>
+                        <li><a href="#">Swimwear</a></li>
+                    </ul>
+                </article>
+            </article>
+            <!---article 3-->
+            <article>
+                <p>Myntra Luxe</p>
+                <ul id="luxe">
+                    <li><a href="#">Shirts by BOSS</a></li>
+                    <li><a href="#">Jeans by Levi's</a></li>
+                    <li><a href="#">Designer Suits</a></li>
+                    <li><a href="#">Luxury Watches</a></li>
+                    <li><a href="#">Premium Footwear</a></li>
+                    <li><a href="#">Designer Accessories</a></li>
+                </ul>
+                <article>
+                    <p>Gadgets</p>
+                    <ul id="gadgets">
+                        <li><a href="#">Smart Wearables</a></li>
+                        <li><a href="#">Fitness Gadgets</a></li>
+                        <li><a href="#">Headphones</a></li>
+                        <li><a href="#">Speakers</a></li>
+                    </ul>
+                </article>
+            </article>
+            <!---article 4-->
+            <article>
+                <p>Personal Care & Grooming</p>
+                <ul id="grooming">
+                    <li><a href="#">Shaving</a></li>
+                    <li><a href="#">Face Wash</a></li>
+                    <li><a href="#">Deodorants</a></li>
+                    <li><a href="#">Hair Care</a></li>
+                    <li><a href="#">Beard Care</a></li>
+                    <li><a href="#">Bath & Body</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Manicure & Pedicure</a></li>
+                </ul>
+                <article class="festive-wear">
+                    <p>Indian & Festive Wear</p>
+                    <ul id="festive-items">
+                        <li><a href="#">Kurtas & Kurta Sets</a></li>
+                        <li><a href="#">Sherwanis</a></li>
+                        <li><a href="#">Nehru Jackets</a></li>
+                        <li><a href="#">Dhotis</a></li>
+                        <li><a href="#">Traditional Bottoms</a></li>
+                        <li><a href="#">Ethnic Wear</a></li>
+                        <li><a href="#">Tassels & Stoles</a></li>
+                        <li><a href="#">Festive Suits</a></li>
+                    </ul>
+                </article>
+            </article>
+        </div>
+        <!-------------womenswear container---------------->
+        <div id="womenswear-container">
+            <article class="topwear">
+                <p>Indian & Fusion Wear</p>
+                <ul id="topwear-items">
+                    <li><a href="#">Kurtas & Suits</a></li>
+                    <li><a href="#">Sarees</a></li>
+                    <li><a href="#">Ethnic Wear</a></li>
+                    <li><a href="#">Lehenga Choli</a></li>
+                    <li><a href="#">Dress Materials</a></li>
+                    <li><a href="#">Kurtis</a></li>
+                    <li><a href="#">Palazzo & Skirts</a></li>
+                    <li><a href="#">Shawls & Dupattas</a></li>
+                    <li><a href="#">Ethnic Dresses</a></li>
+                </ul>
+                <article class="bottomwear">
+                    <p>Western Wear</p>
+                    <ul id="bottomwear-items">
+                        <li><a href="#">Dresses</a></li>
+                        <li><a href="#">Jumpsuits</a></li>
+                        <li><a href="#">Tops & Tunics</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Trousers & Palazzos</a></li>
+                    </ul>
+                </article>
+            </article>
+
+            <article>
+                <p>Lingerie & Sleepwear</p>
+                <ul id="innerwear">
+                    <li><a href="#">Bras & Lingerie</a></li>
+                    <li><a href="#">Briefs & Shapewear</a></li>
+                    <li><a href="#">Sleepwear</a></li>
+                    <li><a href="#">Camisoles</a></li>
+                    <li><a href="#">Thermals</a></li>
+                </ul>
+                <article>
+                    <p>Footwear</p>
+                    <ul id="footwear">
+                        <li><a href="#">Flats & Ballerinas</a></li>
+                        <li><a href="#">Heels</a></li>
+                        <li><a href="#">Boots</a></li>
+                        <li><a href="#">Sports Shoes</a></li>
+                        <li><a href="#">Casual Shoes</a></li>
+                        <li><a href="#">Sandals</a></li>
+                        <li><a href="#">Flip Flops</a></li>
+                    </ul>
+                </article>
+            </article>
+
+            <article>
+                <p>Beauty & Personal Care</p>
+                <ul id="beauty">
+                    <li><a href="#">Makeup</a></li>
+                    <li><a href="#">Skincare</a></li>
+                    <li><a href="#">Haircare</a></li>
+                    <li><a href="#">Fragrances</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Beauty Tools</a></li>
+                    <li><a href="#">Bath & Body</a></li>
+                    <li><a href="#">Nail Care</a></li>
+                    <li><a href="#">Beauty Gift Sets</a></li>
+                    <li><a href="#">Natural Beauty</a></li>
+                </ul>
+                <article>
+                    <p>Sports & Activewear</p>
+                    <ul id="sports">
+                        <li><a href="#">Sports Bras</a></li>
+                        <li><a href="#">Active T-Shirts</a></li>
+                        <li><a href="#">Track Pants</a></li>
+                        <li><a href="#">Tights & Leggings</a></li>
+                        <li><a href="#">Sports Equipment</a></li>
+                        <li><a href="#">Swimwear</a></li>
+                    </ul>
+                </article>
+            </article>
+
+            <article>
+                <p>Fashion Accessories</p>
+                <ul id="accessories">
+                    <li><a href="#">Jewelry</a></li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Hair Accessories</a></li>
+                    <li><a href="#">Belts</a></li>
+                    <li><a href="#">Scarves & Stoles</a></li>
+                    <li><a href="#">Handbags</a></li>
+                </ul>
+                <article>
+                    <p>Gadgets</p>
+                    <ul id="gadgets">
+                        <li><a href="#">Smart Watches</a></li>
+                        <li><a href="#">Fitness Bands</a></li>
+                        <li><a href="#">Designer Cases</a></li>
+                        <li><a href="#">Fashion Tech</a></li>
+                    </ul>
+                </article>
+            </article>
+
+            <article>
+                <p>Designer Boutique</p>
+                <ul id="designer">
+                    <li><a href="#">Designer Sarees</a></li>
+                    <li><a href="#">Designer Dresses</a></li>
+                    <li><a href="#">Designer Handbags</a></li>
+                    <li><a href="#">Designer Jewelry</a></li>
+                    <li><a href="#">Designer Footwear</a></li>
+                    <li><a href="#">Designer Accessories</a></li>
+                </ul>
+                <article class="luxe-brands">
+                    <p>Luxury Brands</p>
+                    <ul id="luxe-items">
+                        <li><a href="#">Luxury Clothing</a></li>
+                        <li><a href="#">Luxury Handbags</a></li>
+                        <li><a href="#">Luxury Footwear</a></li>
+                        <li><a href="#">Luxury Accessories</a></li>
+                        <li><a href="#">Luxury Beauty</a></li>
+                        <li><a href="#">Luxury Watches</a></li>
+                        <li><a href="#">Luxury Jewelry</a></li>
+                        <li><a href="#">Designer Collections</a></li>
+                    </ul>
+                </article>
+            </article>
+        </div>
+        <!---kids container-->
+        <div id="kidswear-container">
+            <article>
+                <p>Boys Clothing</p>
+                <ul id="boys-clothing">
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Shirts</a></li>
+                    <li><a href="#">Shorts</a></li>
+                    <li><a href="#">Jeans</a></li>
+                    <li><a href="#">Trousers</a></li>
+                    <li><a href="#">Clothing Sets</a></li>
+                    <li><a href="#">Ethnic Wear</a></li>
+                    <li><a href="#">Track Pants</a></li>
+                    <li><a href="#">Party Wear</a></li>
+                    <li><a href="#">Innerwear</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Girls Clothing</p>
+                <ul id="girls-clothing">
+                    <li><a href="#">Dresses</a></li>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Tshirts</a></li>
+                    <li><a href="#">Clothing Sets</a></li>
+                    <li><a href="#">Lehenga Choli</a></li>
+                    <li><a href="#">Kurta Sets</a></li>
+                    <li><a href="#">Party wear</a></li>
+                    <li><a href="#">Dungarees</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Footwear</p>
+                <ul id="kids-footwear">
+                    <li><a href="#">Casual Shoes</a></li>
+                    <li><a href="#">Flipflops</a></li>
+                    <li><a href="#">Sports Shoes</a></li>
+                    <li><a href="#">Flats</a></li>
+                    <li><a href="#">Sandals</a></li>
+                    <li><a href="#">School Shoes</a></li>
+                    <li><a href="#">Socks</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Toys & Games</p>
+                <ul id="toys">
+                    <li><a href="#">Learning & Development</a></li>
+                    <li><a href="#">Activity Toys</a></li>
+                    <li><a href="#">Soft Toys</a></li>
+                    <li><a href="#">Action Figure</a></li>
+                    <li><a href="#">Remote Control Toys</a></li>
+                    <li><a href="#">Musical Toys</a></li>
+                    <li><a href="#">Dolls & Doll Houses</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Infants</p>
+                <ul id="infants">
+                    <li><a href="#">Bodysuits</a></li>
+                    <li><a href="#">Rompers & Sleepsuits</a></li>
+                    <li><a href="#">Clothing Sets</a></li>
+                    <li><a href="#">Dresses</a></li>
+                    <li><a href="#">Bottom wear</a></li>
+                    <li><a href="#">Baby Care</a></li>
+                    <li><a href="#">Feeding & Nursing</a></li>
+                </ul>
+            </article>
+        
+            <article>
+                <p>Brands</p>
+                <ul id="kids-brands">
+                    <li><a href="#">H&M</a></li>
+                    <li><a href="#">Max Kids</a></li>
+                    <li><a href="#">Pantaloons</a></li>
+                    <li><a href="#">United Colors Of Benetton Kids</a></li>
+                    <li><a href="#">YK</a></li>
+                    <li><a href="#">Disney</a></li>
+                    <li><a href="#">Puma Kids</a></li>
+                </ul>
+            </article>
+        </div>
+        <!---home and living articles-->
+        <div id="homeliving-container">
+            <article>
+                <p>Bed Linen & Furnishing</p>
+                <ul id="bed-linen">
+                    <li><a href="#">Bedsheets</a></li>
+                    <li><a href="#">Bedding Sets</a></li>
+                    <li><a href="#">Blankets & Quilts</a></li>
+                    <li><a href="#">Pillows & Covers</a></li>
+                    <li><a href="#">Cushions</a></li>
+                    <li><a href="#">Curtains</a></li>
+                    <li><a href="#">Mattress Protectors</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Bath & Decor</p>
+                <ul id="bath-decor">
+                    <li><a href="#">Bath Towels</a></li>
+                    <li><a href="#">Hand Towels</a></li>
+                    <li><a href="#">Bath Rugs</a></li>
+                    <li><a href="#">Shower Curtains</a></li>
+                    <li><a href="#">Bathroom Accessories</a></li>
+                    <li><a href="#">Wall Decor</a></li>
+                    <li><a href="#">Mirrors</a></li>
+                    <li><a href="#">Clocks</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Kitchen & Table</p>
+                <ul id="kitchen">
+                    <li><a href="#">Dinnerware</a></li>
+                    <li><a href="#">Cookware</a></li>
+                    <li><a href="#">Storage & Containers</a></li>
+                    <li><a href="#">Kitchen Tools</a></li>
+                    <li><a href="#">Table Covers</a></li>
+                    <li><a href="#">Runners & Mats</a></li>
+                    <li><a href="#">Kitchen Linen</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Home Decor</p>
+                <ul id="decor">
+                    <li><a href="#">Plants & Planters</a></li>
+                    <li><a href="#">Aromas & Candles</a></li>
+                    <li><a href="#">Wall Art</a></li>
+                    <li><a href="#">Photo Frames</a></li>
+                    <li><a href="#">Decorative Accessories</a></li>
+                    <li><a href="#">Festive Decor</a></li>
+                    <li><a href="#">Wall Shelves</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Storage & Organization</p>
+                <ul id="storage">
+                    <li><a href="#">Storage Boxes</a></li>
+                    <li><a href="#">Hooks & Holders</a></li>
+                    <li><a href="#">Laundry Bags</a></li>
+                    <li><a href="#">Organizers</a></li>
+                    <li><a href="#">Shoe Racks</a></li>
+                    <li><a href="#">Hangers</a></li>
+                </ul>
+            </article>
+        </div>
+        <!---beauty-->
+        <div id="beauty-container">
+            <article>
+                <p>Makeup</p>
+                <ul id="makeup">
+                    <li><a href="#">Lipstick</a></li>
+                    <li><a href="#">Foundation</a></li>
+                    <li><a href="#">Mascara</a></li>
+                    <li><a href="#">Eyeliner</a></li>
+                    <li><a href="#">Blush</a></li>
+                    <li><a href="#">Concealer</a></li>
+                    <li><a href="#">Nail Polish</a></li>
+                    <li><a href="#">Makeup Palettes</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Skincare</p>
+                <ul id="skincare">
+                    <li><a href="#">Moisturizer</a></li>
+                    <li><a href="#">Face Wash</a></li>
+                    <li><a href="#">Sunscreen</a></li>
+                    <li><a href="#">Face Masks</a></li>
+                    <li><a href="#">Serums</a></li>
+                    <li><a href="#">Eye Cream</a></li>
+                    <li><a href="#">Toner</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Haircare</p>
+                <ul id="haircare">
+                    <li><a href="#">Shampoo</a></li>
+                    <li><a href="#">Conditioner</a></li>
+                    <li><a href="#">Hair Oil</a></li>
+                    <li><a href="#">Hair Masks</a></li>
+                    <li><a href="#">Hair Styling</a></li>
+                    <li><a href="#">Hair Color</a></li>
+                    <li><a href="#">Hair Accessories</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Fragrances</p>
+                <ul id="fragrances">
+                    <li><a href="#">Perfumes</a></li>
+                    <li><a href="#">Deodorants</a></li>
+                    <li><a href="#">Body Mists</a></li>
+                    <li><a href="#">Gift Sets</a></li>
+                    <li><a href="#">Natural Perfumes</a></li>
+                    <li><a href="#">Luxury Fragrances</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <p>Personal Care</p>
+                <ul id="personal-care">
+                    <li><a href="#">Body Lotion</a></li>
+                    <li><a href="#">Shower Gels</a></li>
+                    <li><a href="#">Hand Cream</a></li>
+                    <li><a href="#">Sanitizers</a></li>
+                    <li><a href="#">Body Scrubs</a></li>
+                    <li><a href="#">Bath Accessories</a></li>
+                </ul>
+            </article>
+            <article>
+                <p>Luxury Beauty</p>
+                <ul id="luxury-beauty">
+                    <li><a href="#">Premium Makeup</a></li>
+                    <li><a href="#">Luxury Skincare</a></li>
+                    <li><a href="#">High-End Haircare</a></li>
+                    <li><a href="#">Designer Fragrances</a></li>
+                    <li><a href="#">Spa Products</a></li>
+                    <li><a href="#">Beauty Tools</a></li>
+                </ul>
+            </article>
+        </div>
+    </section>
+    <script>
+        var box = document.querySelector('main')
+        var arrow = document.querySelector('.fa-chevron-left');
+        var card = document.getElementById('card-container')
+        arrow.addEventListener('click', () => {
+            box.classList.toggle('open')
+            if (box.classList.contains('open')) {
+
+                card.classList.toggle('change-color')
+                arrow.classList.toggle('change-direction')
+            }
+            else {
+                card.classList.remove('change-color')
+                arrow.classList.remove('change-direction')
+            }
+        })
+
+        var comboCard = document.getElementById('combo-card');
+        var bellIcon = document.getElementById('bell-icon')
+
+        bellIcon.addEventListener('click', () => {
+            comboCard.classList.toggle('active')
+        })
+
+        var closeIcon = document.querySelector('.fa-circle-xmark')
+
+        closeIcon.addEventListener('click', () => {
+            alert("Do You want to close?")
+            comboCard.classList.remove('active')
+        })
+
+        //profile 
+        var profileIcon = document.querySelector(".fa-user")
+        var profileContainer = document.getElementById('profile-container')
+
+        profileIcon.addEventListener('mouseover', () => {
+            profileContainer.classList.toggle('activeprofile')
+
+        })
+
+        //studio function
+
+        var studioContainer = document.getElementById('studio-container');
+        var studioList = document.getElementById('studio-li');
+
+        studioList.addEventListener('mouseover', () => {
+            studioContainer.classList.toggle('studio-open')
+            homeLiving.classList.remove('homeliving-open');
+           kidswearContainer.classList.remove('kidswear-open')
+            menswearContainer.classList.remove('menswear-open')
+            womensContainer.classList.remove('womenswear-open')
+        
+        });
+
+        //mens products menus..
+
+        var mensLi = document.getElementById('mens-list')
+        var menswearContainer = document.getElementById('menswear-container')
+
+        mensLi.addEventListener('mouseover', () => {
+            menswearContainer.classList.add('menswear-open')
+            womensContainer.classList.remove('womenswear-open')
+            kidswearContainer.classList.remove('kidswear-open')
+            studioContainer.classList.remove('studio-open')
+        })
+
+
+        //womens container
+
+        var womensContainer = document.getElementById('womenswear-container')
+        var womensLi = document.getElementById('womens-list');
+
+        womensLi.addEventListener('mouseover', () => {
+            womensContainer.classList.add('womenswear-open')
+            menswearContainer.classList.remove('menswear-open')
+            kidswearContainer.classList.remove('kidswear-open')
+            studioContainer.classList.remove('studio-open')
+        })
+
+
+        //kidswear-container
+        var kidswearContainer = document.getElementById('kidswear-container');
+        var kidsLi = document.getElementById('kids-list');
+
+        kidsLi.addEventListener('mouseover', () => {
+            kidswearContainer.classList.add('kidswear-open')
+            menswearContainer.classList.remove('menswear-open')
+            womensContainer.classList.remove('womenswear-open')
+            studioContainer.classList.remove('studio-open')
+        })
+
+        //home living
+
+        //kidswear-container
+        var homeLiving = document.getElementById('homeliving-container');
+        var homeLi = document.getElementById('homeliving-list');
+
+        homeLi.addEventListener('mouseover', () => {
+           homeLiving.classList.add('homeliving-open');
+           kidswearContainer.classList.remove('kidswear-open')
+            menswearContainer.classList.remove('menswear-open')
+            womensContainer.classList.remove('womenswear-open')
+            studioContainer.classList.remove('studio-open')
+        
+        })    
+
+        //Beauty
+        var beautyLi = document.getElementById('beauty-list')
+        var beautyContainer = document.getElementById('beauty-container')
+
+        beautyLi.addEventListener('mouseover',()=>{
+            beautyContainer.classList.toggle('beauty-open')
+        })
+    </script>
+</body>
+</html>
